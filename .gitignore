@@ -10,3 +10,4 @@
 .wget-hsts
 .gitignore
 .lesshst
+.dotnet/corefx/cryptography/crls/
