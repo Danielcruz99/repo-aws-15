@@ -1,0 +1,17 @@
+h1,form {
+    text-align: center;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+
+button {
+    background-color: black;
+    color:white;
+    font-size: medium;
+    border-radius: 10px;
+    padding: ;
+}
+

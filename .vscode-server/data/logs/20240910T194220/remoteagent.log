@@ -1,0 +1,31 @@
+2024-09-10 19:42:20.746 [info] 
+
+
+
+
+2024-09-10 19:42:20.765 [info] Extension host agent started.
+2024-09-10 19:42:21.055 [info] [<unknown>][6251394f][ManagementConnection] New connection established.
+2024-09-10 19:42:21.062 [info] [<unknown>][9d7efa8b][ExtensionHostConnection] New connection established.
+2024-09-10 19:42:21.230 [info] [<unknown>][9d7efa8b][ExtensionHostConnection] <2401> Launched Extension Host Process.
+2024-09-10 19:42:44.662 [info] [<unknown>][6251394f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-10 19:42:44.686 [info] [<unknown>][9d7efa8b][ExtensionHostConnection] <2401> Extension Host Process exited with code: 0, signal: null.
+2024-09-10 19:42:44.687 [info] Cancelling previous shutdown timeout
+2024-09-10 19:42:44.687 [info] Last EH closed, waiting before shutting down
+2024-09-10 19:42:48.474 [info] [<unknown>][43c98a5a][ExtensionHostConnection] New connection established.
+2024-09-10 19:42:48.475 [info] [<unknown>][e2b209f7][ManagementConnection] New connection established.
+2024-09-10 19:42:48.480 [info] [<unknown>][43c98a5a][ExtensionHostConnection] <2506> Launched Extension Host Process.
+2024-09-10 19:47:44.689 [info] New EH opened, aborting shutdown
+2024-09-10 19:47:44.696 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ec2-user/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/server/node/server.main.js:198:6390)
+    at process.emit (node:events:531:35)
+2024-09-10 19:51:01.672 [error] Error: connect ECONNREFUSED 127.0.0.1:5000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)
+2024-09-10 19:51:01.686 [error] Error: connect ECONNREFUSED 127.0.0.1:5000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)
+2024-09-10 19:56:18.029 [error] Error: connect ECONNREFUSED 127.0.0.1:4000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)
+2024-09-10 19:56:18.044 [error] Error: connect ECONNREFUSED 127.0.0.1:4000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)
+2024-09-10 19:56:52.849 [error] Error: connect ECONNREFUSED 127.0.0.1:4000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)
+2024-09-10 20:02:06.768 [warning] No ptyHost heartbeat after 6 seconds
