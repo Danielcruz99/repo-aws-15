@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/styleFinance.css">
+    <script src="static/js/appFinance.js"></script>
+    <title>Registro de Compras</title>
+</head>
+<body>
+    <h1>Registro de Compras</h1>
+    <form action="/submit_purchase" method="post">
+        <label>Id de Compra (Se genera automáticamente)</label><br><br>
+
+        <label>Día de la Compra</label> 
+        <input type="date" name="purchase_date" required><br><br>
+
+        <label>Categoría</label>
+        <select name="category" required>
+            <option value="Transporte">Transporte</option>
+            <option value="Restaurante">Restaurante</option>
+            <option value="Entretenimiento">Entretenimiento</option>
+            <option value="Servicios">Servicios</option>
+            <option value="Otros">Otros</option>
+        </select><br><br>
+
+        <label>Monto en Pesos Colombianos</label> 
+        <input type="number" name="amount" required><br><br>
+
+        <button type="submit">Registrar Compra</button>
+    </form>
+</body>
+</html>
