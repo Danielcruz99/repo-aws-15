@@ -3,7 +3,7 @@ import pymysql
 
 host = "inst-db.c1iac8cy2hmh.us-east-2.rds.amazonaws.com"
 user = "daniel"
-password = "!Nihonikimasu25."
+password = "!Test."
 db_name = "db_finanzas"
 
 def connection_SQL():
